@@ -1,0 +1,29 @@
+{
+  "name": "@austryx/purflax",
+  "version": "1.0.0",
+  "description": "A dark-mode purple palette for my fellow purple enjoyers.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purflax/palette.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/purflax/palette/issues"
+  },
+  "main": "./script/mod.js",
+  "module": "./esm/mod.js",
+  "exports": {
+    ".": {
+      "import": "./esm/mod.js",
+      "require": "./script/mod.js"
+    }
+  },
+  "scripts": {
+    "test": "node test_runner.js"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "picocolors": "^1.0.0"
+  },
+  "_generatedBy": "dnt@0.40.0"
+}

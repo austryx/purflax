@@ -1,0 +1,17 @@
+{
+	"purflax": {
+		"name": "Purflax",
+		"emoji": "&#128156",
+		"dark": true,
+		"colors": {
+			"crust": 	{"hex": "#0b0b0d", "order": 0},
+			"base" : 	{"hex": "#1e1e22", "order": 1},
+			"surface": 	{"hex": "#3a1f6e", "order": 2},
+			"overlay": 	{"hex": "#aaaaae", "order": 3},
+			"text": 	{"hex": "#f4f4f6", "order": 4},
+			"rosewater": 	{"hex": "#e5c8ff", "order": 5, "accent": true},
+			"mauve": 	{"hex": "#ca7bff", "order": 6, "accent": true},
+			"primary": 	{"hex": "#7a3eff", "order": 7, "accent": true}
+		}
+	}
+}
